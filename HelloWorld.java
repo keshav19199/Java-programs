@@ -1,5 +1,8 @@
-import java.util.Scanner;
+package java_prog;
 public class HelloWorld
 {
-    System.out.println("HelloWorld");
+	public static void main(String[] args)
+	{
+		System.out.println("Hello World..");
+	}
 }
