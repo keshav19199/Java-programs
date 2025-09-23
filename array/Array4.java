@@ -1,3 +1,4 @@
+
 package java_prog.array;
 
 public class Array4 {
@@ -17,4 +18,4 @@ public class Array4 {
 				
 	}
 
-}
+}	
