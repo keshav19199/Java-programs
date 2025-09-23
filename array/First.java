@@ -11,6 +11,9 @@ public class First {
 		nums[2]=3;
 		nums[4]=43;
 		
+		// lenght => Array.length
+		
 		System.out.println(nums[3]);
+		System.out.println(3*nums[2]);
 		}
 }
