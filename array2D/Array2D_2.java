@@ -1,25 +1,26 @@
-//Print the 2 Dimensional Array with 3 Rows and 3 Columns.
+//print 2D array with reverse numbers with 9 to 1.
+//9 8 7
+//6 5 4
+//3 2 1
 
 package java_prog.array2D;
 
-public class Array2D_1 {
+public class Array2D_2 {
 
 	public static void main(String[] args) {
 		
+		int counter=9;
 		int[][] arr=new int[3][3];
 		
-		arr[0][0]=1;
-		arr[0][1]=2;
-		arr[0][2]=3;
-		
-		arr[1][0]=4;
-		arr[1][1]=5;
-		arr[1][2]=6;
-		
-		arr[2][0]=7;
-		arr[2][1]=8;
-		arr[2][2]=9;
-		
+		for(int i=0; i<arr.length; i++)
+		{
+			for(int j=0; j<arr[0].length; i++)
+			{
+				arr[i][j]=counter;
+				counter--;
+			}
+				
+		}
 		for(int i=0; i<arr.length; i++)
 		{
 			for(int j=0; j<arr[i].length; j++)
@@ -28,5 +29,6 @@ public class Array2D_1 {
 			}
 			System.out.println();
 		}
-	} 
+	}
+
 }
