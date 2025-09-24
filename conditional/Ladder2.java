@@ -10,7 +10,7 @@ package java_prog.conditional;
 public class Ladder2 {
 	public static void main(String[] args) {
 	
-		double amount=11954.000;
+		double amount=119054.000;
 	
 		if(amount>=50000 && amount<100000)
 		{
