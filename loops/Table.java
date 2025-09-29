@@ -10,7 +10,6 @@ public class Table {
 			System.out.println("*************************************");
 			for(int multi=1; multi<=10; multi++) 
 			{
-				
 				System.out.print(i*multi+"  ");
 			}
 			System.out.println();
