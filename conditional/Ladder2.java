@@ -1,5 +1,5 @@
 /* Write a java Program to Following This Conditions.
- * amount <100000 Low worth income.
+ * amount 	<100000 Low worth income.
  * amount >=100000 Medium worth income.
  * amount >=500000 High worth income.
  * amount >=1000000 Ultra High worth income.

@@ -5,7 +5,7 @@ package java_prog.array;
 public class Array7 {
 	public static void main(String[] args) {
 		
-		int[] arr= { 12,32,45,35,63,67,98,15,74,93,49,53,26,73,85};
+		int[] arr= { 12,32,54,56,36,78,65,98,6,006,76,26,73,85};
 		
 		int num=Integer.MIN_VALUE;
 		int second=Integer.MIN_VALUE;

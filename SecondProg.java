@@ -7,7 +7,7 @@ public class SecondProg {
 		int age=10;
 		float marks=75.80f;
 		double salary=80000.435;
-		long Bankbalance=983490362;
+		long Bankbalance=983490363;
 		char gender='@';
 		String str="qwerty";
 		
