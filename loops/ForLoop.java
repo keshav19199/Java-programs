@@ -1,4 +1,4 @@
-// Write a java code to print Hii in ten times
+// Write a java code to print Hii in FIVE times
 
 package java_prog.loops;
 
@@ -7,7 +7,7 @@ public class ForLoop {
 		
 		for(int i=1; i<=5; i++)
 		{
-			System.out.println("Hii..");
+			System.out.println("Hello..");
 		}
 		
 		System.out.println("Thank You..");			
