@@ -3,14 +3,15 @@ package java_prog.loops;
 public class PrimeNo2 {
 
 	public static void main(String[] args) {
-
-		for(int i=2; i<200; i++)
+		
+		int count=0;
+		for(int i=2; i<100; i++)
 		{
 			boolean flag=true;
 			
 			for(int j=2; j<i; j++)
 			{
-				if(i%2==0)
+				if(i%j==0)
 				{
 					flag=false;
 				}
@@ -18,8 +19,9 @@ public class PrimeNo2 {
 			if(flag==true)
 			{
 				System.out.print(i+" ");
+				count++;
 			}
-		}
+		}System.out.println("\nTotal Prime Numbers are: "+count);
 	}
 
 }
