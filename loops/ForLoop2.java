@@ -1,5 +1,6 @@
 //Infinity loop
 
+
 package java_prog.loops;
 
 public class ForLoop2 {
