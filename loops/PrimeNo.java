@@ -1,3 +1,5 @@
+// Check the given number is prime or not.
+
 package java_prog.loops;
 
 public class PrimeNo {
