@@ -15,6 +15,7 @@ public class Input_Parameter {
 }
 class Railway
 {
+	//method parameter.
 	public void add(int i, int j)
 	{
 		System.out.println(i+j);	
