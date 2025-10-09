@@ -1,4 +1,4 @@
-//
+//signature method 
 package java_prog.Classes;
 
 public class Input_SignatureMethod {
@@ -7,6 +7,7 @@ public class Input_SignatureMethod {
 		
 		Railway1 rail=new Railway1();
 		rail.add(10,20);
+		
 		rail.sub(2, 4, 6);
 		
 		Railway1 rail2=new Railway1();
