@@ -4,7 +4,7 @@ package java_prog.Classes;
 
 public class Static_Input_parameter {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 
 		Rail_way.add();
 	}

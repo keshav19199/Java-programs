@@ -8,11 +8,12 @@ public class StringClass2 {
 		StringBuilder sb=new StringBuilder("abc");
 		System.out.println(sb);
 		
+		//StringBuilder sb2=sb.append("def");
 		StringBuilder sb2=sb.append("def");
 		System.out.println(sb);
 		System.out.println(sb2);
 		
-		System.out.println(sb==sb2);
+		System.out.println(sb.equals(sb2));//
 	}
 
 }
