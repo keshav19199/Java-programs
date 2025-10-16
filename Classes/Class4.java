@@ -18,9 +18,7 @@ public class Class4 {
 		
 		System.out.println("Bike Name: "+GT650.name);
 		System.out.println("Number: "+GT650.number);
-
 	}
-
 }
 class Student4
 {
