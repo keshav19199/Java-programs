@@ -21,7 +21,6 @@ public class Class3 {
 		System.out.println(swift.price);
 		
 		System.out.println(hyundai==swift);	//=>false because memory address are not same
-		
 	}
 
 }
