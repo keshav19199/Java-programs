@@ -6,7 +6,6 @@ public class Class1 {
 	public static void main(String[] args) {
 
 		int age=21;
-		
 		System.out.println(age);				//print the main method value direct
 		
 		System.out.println(new Second().age);	//print the class value. 
