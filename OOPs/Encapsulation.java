@@ -5,9 +5,10 @@ public class Encapsulation {
 	public static void main(String[] args) {
 
 		Bussiness alovera=new Bussiness();
-		alovera.setturnover(101);
 		
+		alovera.setturnover(10);
 		System.out.println(alovera.getTurnover());
+		
 		alovera.setGstnumber("GST1234567");
 		System.out.println(alovera.getgstnumber());
 	}
