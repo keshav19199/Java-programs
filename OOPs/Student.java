@@ -3,6 +3,7 @@ package java_prog.OOPs;
 public class Student {
 
 	public static void main(String[] args) {
+		
 
 		Stud student=new Stud();
 		student.setname("Keshav");
@@ -11,13 +12,13 @@ public class Student {
 		student.setRollno(3009);
 		System.out.println(student.getRollno());
 		
-		student.setstud_class("Sybsc-cs");
+		student.setstud_class("Sybsc-cs.");
 		System.out.println(student.getstud_class());
 		
 		student.setmobile("9834283134");
 		System.out.println(student.getmobile());
 		
-		student.setmarks(37.43);
+		student.setmarks(36.43);
 		System.out.println(student.getmarks());
 		
 		student.setemail("abc@gmail.com");
