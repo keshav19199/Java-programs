@@ -173,7 +173,5 @@ class Stud
 		return this.getpincode();
 	}
 	
-	
-	
 }
 
