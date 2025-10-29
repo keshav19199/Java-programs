@@ -6,11 +6,13 @@ public class Class6 {
 
 		Airoplane boing=new Airoplane();
 		boing.name="tejas";
-		boing.price="23.22 core";
+		boing.price="23.21 core";
 				
 		Airoplane air_india=new Airoplane();
-		air_india.name="abc.ds";
-		air_india.price="435.32 core";
+		air_india.name="jatt";
+		air_india.price="435.39 core";
+		
+		System.out.println(air_india.name);
 		
 		boing.fly();
 		air_india.fly();
@@ -24,6 +26,6 @@ class Airoplane
 	
 	public void fly()
 	{
-		System.out.println("Airoplan has started..");
+		System.out.println("Airoplan has a started..");
 	}
 }
