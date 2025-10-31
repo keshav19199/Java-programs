@@ -4,8 +4,8 @@ public class Multiple {
 
 	public static void main(String[] args) {
 
-		PC pc=new PC();
-		System.out.println(pc.name);
+//		PC pc=new PC();
+//		System.out.println(pc.name);
 	}
 
 }
@@ -17,7 +17,13 @@ class desktop
 {
 	String name="HP..";
 }
-class PC extends Laptop,desktop
+/** 
+ * 
+ * class PC extends Laptop,desktop
+ 
 {
-	
+	 This is a Diamond/Ambiguious Problem
 }
+
+
+**/
