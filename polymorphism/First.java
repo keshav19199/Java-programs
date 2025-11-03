@@ -34,7 +34,7 @@ class Airoplane
 	{
 		System.out.println("D =>string");
 	}
-	public void plane(double d)
+	public void plane(double dt)
 	{
 		System.out.println("32.2=> Double");
 	}
