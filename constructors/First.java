@@ -12,5 +12,8 @@ public class First {
 }
 class Book
 {
-	
+	public Book()
+	{
+		System.out.println("Good morniung...");
+	}
 }
