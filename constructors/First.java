@@ -4,7 +4,8 @@ public class First {
 
 	public static void main(String[] args) {
 
-		Book book=new Book(); 	//Constructor call
+		Book book=new Book();
+		//Book book=new Book(43.3); 	//Constructor call
 		book.Book('3','4');
 		book.Book(3.4);
 		book.Book("d");
