@@ -4,7 +4,7 @@ public class Overriding {
 
 	public static void main(String[] args) {
 
-	Planet planet=new Planet();
+	//Planet planet=new Planet();
 		Bl2 bl=new Bl2();
 		bl.show();
 		bl.seat();
