@@ -13,10 +13,12 @@ class Laptop
 {
 	String name="HP..";
 }
+
 class desktop
 {
 	String name="HP..";
 }
+
 /** 
  * 
  * class PC extends Laptop,desktop
