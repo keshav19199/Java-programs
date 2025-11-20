@@ -4,7 +4,7 @@ public class Exception2 {
 
 	public static void main(String[] args) {
 
-		int age=243;
+		int age=24;
 		
 		try
 		{
