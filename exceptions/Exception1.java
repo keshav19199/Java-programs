@@ -10,12 +10,12 @@ public class Exception1 {
 		try {
 			if(str.equals("Sunday")==false)
 			{
-				throw new NotSundayException();
+				throw new NoException();
 			}
 			System.out.println("Sunday.. Let's play a criket..");
 			
 		}
-		catch(NotSundayException e){
+		catch(NoException e){
 			
 			System.out.println(e.getMessage());
 			
@@ -29,9 +29,9 @@ public class Exception1 {
 	}
 
 }
-class NotSundayException extends Exception
+class NoException extends Exception
 {
-		public NotSundayException()
+		public NoException()
 		{
 			super("Hiii");
 		}
