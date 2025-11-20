@@ -16,7 +16,7 @@ public class Exception2 {
 		}
 		catch(NoException n)
 		{
-			System.out.println("Hiii..");
+			System.out.println(n.getMessage());
 		}
 		finally
 		{
@@ -29,6 +29,9 @@ public class Exception2 {
 }
 class NoException extends Exception
 {
-	
+	public NoException()
+	{
+		super();
+	}
 
 }
