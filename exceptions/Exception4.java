@@ -23,13 +23,13 @@ public class Exception4 {
 			
 			
 		}
-			catch(NumberException ne)
+			catch(NumberException Ne)
 			{
-				System.out.println(ne.getMessage());
+				System.out.println(Ne.getMessage());
 			}
-			catch(Number2Exception ne)
+			catch(Number2Exception Ne)
 			{
-				System.out.println(ne.getMessage());
+				System.out.println(Ne.getMessage());
 			}
 		}
 	}
