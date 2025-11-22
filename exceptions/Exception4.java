@@ -6,7 +6,8 @@ public class Exception4 {
 
 		int age=41;
 		
-		try {
+		try 
+		{
 			if(age>40 && age <60)
 			{
 				throw new NumberException();
