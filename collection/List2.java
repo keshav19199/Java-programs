@@ -1,18 +1,20 @@
 package java_prog.collection;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
-public class List1 {
+public class List2 {
 
 	public static void main(String[] args) {
 
-		List<String> list=new ArrayList<String>();
-		
-		System.out.println(list.add("qwerty"));
+		List<Integer> list= new ArrayList<Integer>();
 		
 		
+		System.out.println(list.add(21421));
 		System.out.println(list);
+		
+		
+		
 		
 	}
 
