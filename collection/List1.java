@@ -10,6 +10,10 @@ public class List1 {
 		List<String> list=new ArrayList<String>();
 		
 		System.out.println(list.add("qwerty"));
+		
+		
+		System.out.println(list);
+		System.out.println(list.addAll(list));
 	}
 
 }
