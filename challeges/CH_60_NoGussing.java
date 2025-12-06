@@ -1,10 +1,13 @@
 package java_prog.challeges;
 
+import java.util.Scanner;
+
 public class CH_60_NoGussing {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		Scanner sc=new Scanner(System.in);
+		
 	}
 
 }
