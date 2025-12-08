@@ -17,7 +17,7 @@ public class Logical {
 		list.add(4);
 		list.add(6);
 		list.add(9);
-		list.add(9);
+		list.add(6);
 
 		int num=list.getFirst();
 		
