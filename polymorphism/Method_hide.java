@@ -21,6 +21,7 @@ class Room
 }
 class Kitchen extends Room
 {
+	
 //	static void Light()
 //	{
 //		

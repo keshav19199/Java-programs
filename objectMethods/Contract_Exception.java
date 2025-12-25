@@ -1,4 +1,4 @@
-package java_prog.exceptions;
+package java_prog.objectMethods;
 
 public class Contract_Exception {
 

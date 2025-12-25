@@ -19,11 +19,12 @@ public class Stack1 {
 		
 		System.out.println("**************************");
 
-		stack.pop();
-		stack.pop();
-		stack.pop();
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
+		stack.pop();	//remove head element 
+		stack.pop();	//remove second head
+		stack.pop();	//remove third head
+		
+		System.out.println(stack.pop());	// remove last element
+		//System.out.println(stack.pop());
 		
 		
 		

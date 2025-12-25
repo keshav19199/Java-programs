@@ -1,0 +1,3 @@
+
+let arr=['a','b','c','r','t'];
+consol.log(arr);
