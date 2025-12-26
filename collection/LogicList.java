@@ -1,3 +1,5 @@
+//print the no which index is 2.
+
 package java_prog.collection;
 
 import java.util.Collection;
@@ -26,7 +28,7 @@ public class LogicList {
 		
 		for(Integer a : list)
 		{
-			if(a !=null && a.toString().startsWith("2"))
+			if(a.toString().startsWith("2"))
 			{
 				list2.add(a);
 			}
