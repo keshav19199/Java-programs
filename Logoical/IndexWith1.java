@@ -3,13 +3,16 @@
 package java_prog.Logoical;
 
 import java.util.List;
-import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedList;
 
 public class IndexWith1 {
 
 	public static void main(String[] args) {
 
-		List<Integer> list=new ArrayList<Integer>();
+		List<Integer> list=new LinkedList<Integer>();
+		List<Integer> list2=new LinkedList<Integer>();
+		
 		
 		list.add(111);
 		list.add(2341);
@@ -20,10 +23,21 @@ public class IndexWith1 {
 		list.add(6679);
 		list.add(143);
 		list.add(6922);
+		list.add(1);
+		list.add(1);
+		
 		
 		System.out.println(list);
-
 		
+		for(Integer v : list)
+		{
+			if(v !=null && v.toString().startsWith("1"))
+			{
+				list2.add(v);
+			}
+		}
+		
+		System.out.println(list2);
 	}
 
 }
