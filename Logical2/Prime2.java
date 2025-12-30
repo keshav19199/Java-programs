@@ -34,7 +34,6 @@ public class Prime2 {
 		}
 		System.out.println("Total: "+count);
 		System.out.println("Sum: "+sum);
-
 	}
 
 }
