@@ -12,7 +12,7 @@ public class Check2 {
 		}
 		else
 		{
-			System.out.println("Heloo");
+			System.out.println("Helloo");
 		}
 	}
 
