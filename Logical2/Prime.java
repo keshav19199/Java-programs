@@ -33,7 +33,7 @@ public class Prime {
 				count2++;
 			}
 		}
-		System.out.println("Prime: "+count1);
+		System.out.println("\n\nPrime: "+count1);
 		System.out.println("non prime: "+count2);
 	}
 
