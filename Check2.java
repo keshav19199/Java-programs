@@ -22,7 +22,6 @@ public class Check2 {
 	{
 		System.out.println("a="+a+"b="+b);
 	}
-
 	Letter(float a,float b)
 	{
 		System.out.println("a="+a+"b"+b);
