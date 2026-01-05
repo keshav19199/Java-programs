@@ -24,7 +24,7 @@ public class Iterator1 {
 			coll.remove(1);
 			System.out.println(coll);
 		
-		System.out.println(coll.pop());
+		System.out.println(coll.pop());	// remove LIFO.
 		
 		
 	}
