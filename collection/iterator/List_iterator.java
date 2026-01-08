@@ -26,7 +26,7 @@ public class List_iterator {
 		}
 		System.out.println("**************");
 		
-		while(itr.hasPrevious())
+		while(itr.hasPrevious())		// it is not first print because firt you can go forward
 		{
 			System.out.println(itr.previous());
 		}
