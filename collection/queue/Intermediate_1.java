@@ -18,51 +18,51 @@ public class Intermediate_1 {
 		//filter()
 		list.stream()
 		.filter(n-> n%2==0)
-		.forEach((i)-> {System.out.println(i);});
+		.forEach((i)-> {System.out.println("filter: "+i);});
 		System.out.println("********************************");
 		
 		//map()
 		list.stream()
 		.map(i->i*3)
-		.forEach((k)->{System.out.println(k);});
+		.forEach((k)->{System.out.println("map: "+k);});
 		System.out.println("********************************");
 		
 		//Distinct
 		list.stream()
 		.distinct()
-		.forEach((i)->{System.out.println(i);});
+		.forEach((i)->{System.out.println("Disinct: "+i);});
 		System.out.println("********************************");
 
 		//sorted
 		list.stream()
 		.sorted((a,b)->(Integer.compare(b, a)))
-		.forEach((i)->{System.out.println(i);});
+		.forEach((i)->{System.out.println("sorted: "+i);});
 		System.out.println("********************************");
 
 		
 		//limit()
 		list.stream()
 		.limit(4)
-		.forEach((i)->System.out.println(i));
+		.forEach((i)->System.out.println("Limit: "+i));
 		System.out.println("********************************");
 
 		// skip()
 		list.stream()
 		.skip(13)
-		.forEach((s)->System.out.println(s));
+		.forEach((s)->System.out.println("skip: "+s));
 		System.out.println("********************************");
 
 		
 		// forEach
 		list.stream()
-		.forEach((u)->System.out.println(u));
+		.forEach((u)->System.out.println("forEach :"+u));
 		System.out.println("********************************");
 
 		// count
 		long l=list.stream()
 		.filter(n -> 6>n)
 		.count();
-		System.out.println(l);
+		System.out.println("count: "+l);
 		System.out.println("********************************");
 
 		// min
@@ -70,14 +70,14 @@ public class Intermediate_1 {
 		.min((n,m) -> (n-m))
 		.get();
 		
-		System.out.println(min);
+		System.out.println("min: "+min);
 		System.out.println("********************************");
 
 		// max
 		int max=list.stream()
 				.max((n,m) -> (n-m))
 				.get();
-		System.out.println(max);
+		System.out.println("Max: "+max);
 		System.out.println("********************************");
 
 		// anyMatch
