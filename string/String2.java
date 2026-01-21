@@ -13,7 +13,7 @@ public class String2 {
 		
 		
 		System.out.println(arr[3].id);
-		System.out.println(arr[3].salary);  //it's a direct access to salary. 
+		System.out.println(arr[1].salary);  //it's a direct access to salary. 
 	}
 
 }

@@ -4,6 +4,15 @@ public class DotEquals {
 
 	public static void main(String[] args) {
 
+		String str="hii";
+		String str2="hii";
+		
+		System.out.println(str.hashCode());
+		System.out.println(str2.hashCode());
+		System.out.println(str.equals(str2));
+		System.out.println(str2==str);
+		System.out.println("**********************************");
+		
 		Bike b1=new Bike(9,"Honda",43.34);
 		Bike b2=new Bike(9,"Honda",43.34);
 		

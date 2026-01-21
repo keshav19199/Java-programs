@@ -14,6 +14,7 @@ public class StringClass3 {
 		System.out.println(str3==str4);
 		System.out.println(str.equals(str2));	//content
 		System.out.println(str3.equals(str4));
+		System.out.println(str.equals(str4));
 	}
 
 }
