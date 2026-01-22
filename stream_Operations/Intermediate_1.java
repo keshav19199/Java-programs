@@ -1,6 +1,5 @@
-package java_prog.collection.queue;
+package java_prog.stream_Operations;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
