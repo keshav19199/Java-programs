@@ -19,7 +19,7 @@ public class logic1 {
 		System.out.println(list7);
 		
 	int sum=list7.stream()
-				.flatMap(i -> i.stream())
+				.flatMap((i) ->{return i.stream();})
 				.flatMap(i -> i.stream())
 				.flatMap(i -> i.stream())
 				//.peek((i)-> {System.out.println(i);})
