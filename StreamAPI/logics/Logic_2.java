@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 public class Logic_2 {
 	public static void main(String args[]){
 		
-		List<Integer> list=List.of(10,13,17,20);
+		List<Integer> list=List.of(10,13,17,20);	// print the missing elements
 		
 		IntStream.rangeClosed(10, 20)
 		.forEach((i) -> {
