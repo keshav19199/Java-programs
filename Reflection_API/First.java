@@ -16,6 +16,9 @@ public class First {
 		for(Constructor <?> c:cs)
 		{
 			System.out.println(c);
+			System.out.println(c.getParameterCount());
+			System.out.println(c.getName());
+			System.out.println(c.getParameterTypes());
 		}
 	
 		
