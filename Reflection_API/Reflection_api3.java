@@ -1,50 +1,32 @@
 package java_prog.Reflection_API;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 
 public class Reflection_api3 {
 
-	public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchFieldException {
-
-		//System.out.println(Bike.class);
+	public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, SecurityException{
 		
-		Class<?> cl= Class.forName("java_prog.Reflection_API.Bike");
-
-		Field[] field=cl.getDeclaredFields();
+		Class<?> cl=Class.forName("java_prog.Reflection_API.Bike");
 		
-		Constructor<?> con= cl.getDeclaredConstructor(double.class);
+		Field[] fil=cl.getDeclaredFields();
 		
-		con.setAccessible(true);
-		
-		Bike bk=(Bike)con.newInstance(8659.9654);
-		
-		for(Field f:field)
+		for(Field f:fil)
 		{
 			System.out.println(f);
 		}
 		
-		Field fd=cl.getDeclaredField("price");
-		System.out.println("---------------------------");
-		System.out.println(fd);
+		Field f=cl.getDeclaredField("price");
 		
-		fd.setAccessible(true);
-	//	fd.setDouble(bk, 0);
-		System.out.println(fd.getDouble(bk));
-		
-	
+
 	}
 }
-
 class Bike
 {
 	private double price;
-	public String name;
-	public String color;
 	
 	private Bike(double price)
 	{
-		System.out.println("Object created...");
+		this.price=price;
 	}
+
 }
