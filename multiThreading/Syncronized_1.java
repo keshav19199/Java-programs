@@ -9,9 +9,9 @@ public class Syncronized_1 {
 		
 		One on=new One(c1);
 		Two to=new Two(c1);
-		 on.count=c1;
-		 to.count=c1;
-		
+//		 on.count=c1;
+//		 to.count=c1;
+//		
 		 
 		 on.start();
 		 to.start();
