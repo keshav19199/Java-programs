@@ -30,7 +30,7 @@ class Counter
 {
 	int count=0;
 	
-	public void Increase()
+	public synchronized void Increase()
 	{
 		this.count++;
 	}
