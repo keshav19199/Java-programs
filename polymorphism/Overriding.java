@@ -62,4 +62,7 @@ class Bl2 extends Blue
 		super();
 		System.out.println("The constructor of the Bl2 class..");
 	}
+	public void Blue() {
+			
+	}
 }

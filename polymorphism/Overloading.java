@@ -6,7 +6,8 @@ public class Overloading {
 
 		Car c=new Car();
 		c.add(4, 5);
-		c.sub("d","d", 0);
+		c.sub("4","5", 0);
+		//c.sub();
 	}
 
 }
@@ -20,5 +21,6 @@ class Car
 	public void sub(String z, String y, int w)
 	{
 		System.out.println("string - string - int");
+		//System.out.println("z" - "y" - w);
 	}
 }

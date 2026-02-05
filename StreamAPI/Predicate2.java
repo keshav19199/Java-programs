@@ -10,6 +10,8 @@ public class Predicate2 {
 		StringBuffer sb=new StringBuffer(i);
 		String s1=sb.reverse().toString();
 		return i.equals(s1);};
+		
+		
 		Predicate<String> p2=(s)->{return s.length()>4;};
 		
 		Predicate<String> p3=p1.and(p2);

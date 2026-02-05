@@ -12,6 +12,9 @@ public class Predicate4 {
 		
 		Predicate<Integer>p3=p2.negate();
 		System.out.println(p3.test(5));
+		
+		//System.out.println(p2.test(5));
+		
 	}
 
 }
