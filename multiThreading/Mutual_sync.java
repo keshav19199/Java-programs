@@ -81,7 +81,7 @@ class Hell extends Thread
 		while(true) {
 		try {
 			
-			//Thread.sleep(1000);
+			Thread.sleep(1000);
 			
 		p.addNum();
 		}
@@ -103,7 +103,7 @@ class Hi extends Thread
 		while(true) {
 		try {
 			
-			//Thread.sleep(1000);
+			Thread.sleep(1000);
 			
 		p.removeNum();
 		}
