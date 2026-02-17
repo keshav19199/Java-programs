@@ -6,10 +6,9 @@ public class Execoter_1 {
 
 	public static void main(String[] args) throws Exception {
 
-		Callable<Integer> c=()->{return 28;};
+		Callable<Integer> col=()->{return 34;};
 		
-		System.out.println(c.call());
-		
+		System.out.println(col.call());
 	}
 
 }
