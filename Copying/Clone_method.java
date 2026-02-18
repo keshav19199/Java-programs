@@ -10,7 +10,7 @@ public class Clone_method {
 		
 		One b=(One) a.Clone();
 		
-		System.err.println(b.id);
+		System.out.println(b.id);
 		
 	}
 
