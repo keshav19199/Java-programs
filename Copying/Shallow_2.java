@@ -12,6 +12,9 @@ public class Shallow_2 {
 		System.out.println(a1.name+"  "+a1.weight);
 		System.out.println(a2.name+"  "+a2.weight);
 		
+		// shallowing copy is you can chang second obj value. but you don't
+		// chand it is by default assing 1st obj value.
+		
 		System.out.println(a1==a2);
 	}
 }
