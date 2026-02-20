@@ -1,31 +1,25 @@
 package java_prog.Logoical;
 
-public class Prime {
+public class Prime4 {
 
 	public static void main(String[] args) {
 
-		int counter = 0;
-		for(int i=2; i<100; i++)
+		for(int i=2; i<=100; i++)
 		{
-			
-			boolean isPrime=true;
-
+			boolean flag=true;
 			for(int j=2; j<i; j++)
 			{
 				if(i%j==0)
 				{
-					isPrime=false;
+					flag=false;
 					break;
 				}
 			}
-			if(isPrime)
+			if(flag)
 			{
 				System.out.println(i);
-				counter++;
 			}
-
 		}
-		System.out.println("Total: "+counter);
 	}
 
 }
