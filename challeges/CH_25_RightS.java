@@ -15,6 +15,7 @@ public class CH_25_RightS {
 		int result= num >> 2;
 
 		// >> 1 = asn/2.
+		// >> 2 = ans/3
 		System.out.println("result: "+result);
 	}
 
