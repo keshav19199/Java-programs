@@ -28,8 +28,6 @@ public class CH_29_oddEv {
 		}
 		System.out.println("Sum is: "+sum);
 		
-		
-		
 	}
 
 }
