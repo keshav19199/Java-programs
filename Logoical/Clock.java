@@ -6,7 +6,12 @@ public class Clock {
 
 	public static void main(String[] args) {
 
-		System.out.println(LocalDateTime.now());
+		
+		for(int i=0; i<=50; i++)
+		{
+			
+			System.out.println(LocalDateTime.now());
+		}
 	}
 
 }
