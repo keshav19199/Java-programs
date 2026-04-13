@@ -3,7 +3,7 @@ package java_prog.logical3;
 public class DivByPrev {
 
 	public static void main(String[] args) {
-
+		
 		int arr[]= {2,4,3,6,9};
 		int count=0;
 		
