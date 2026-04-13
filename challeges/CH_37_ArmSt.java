@@ -7,7 +7,7 @@ public class CH_37_ArmSt {
 		int count=0;
 		
 		
-		for(int i=1; i<=10000; i++)
+		for(int i=1; i<=1000; i++)
 		{
 			int sum=0;
 			int num=i;
