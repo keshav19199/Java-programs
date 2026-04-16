@@ -28,6 +28,8 @@ public class ArrayHighLow {
 		}
 		System.out.println("Lowest: "+min);
 		System.out.println("2nd Low: "+min2);
+		
+		System.out.println("_________________________________________________");
 				
 		
 		for(int j=0; j<arr.length; j++)
