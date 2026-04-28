@@ -7,20 +7,61 @@ public class CH_44_DeleteNoArray {
 	public static void main(String[] args) {
 
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Welcome to Array Deletion\n");
+		System.out.println("Welcome to our Deletiong array");
 		int[] arr=ArrayUtility.inputArray();
-		System.out.println("Enter the no which you want to delete");
+		System.out.println("which no is delete: ");
 		int numDlt=sc.nextInt();
 		
-		int[] arr2=delete(arr, numDlt);
+		int[] newArr=deletenum(arr,numDlt);
 		System.out.println("Here is your new Array");
-		ArrayUtility.display(arr2);
+		ArrayUtility.displayArray(newArr);
 		
+		
+		int Occurrences=noOfOccurreances(arr, numDlt);
 		
 	}
-	public static int[] delete(int[] arr, int numDlt)
+	
+	public static int[] deletenum(int arr[], int numDlt)
 	{
-		int occ=
+		int occ=noOfOccurreances(arr, numDlt);
+		if(occ==0)
+		{
+			return arr;
+		}
+		int newSize=arr.length-occ;
+		int[] newArr=new int[newSize];
+		
+		int i=0, j=0;
+		
+		while(i<arr.length)
+		{
+			if(arr[i] != numDlt)
+			{
+				newArr[j]=arr[i];
+				j++;
+			}
+			i++;
+		}
+		
+		return newArr;	
 	}
+	
+	
+	public static int noOfOccurreances(int[] numArr, int num)
+	{
+		int occ=0;
+		int i=0;
+		
+		while(i<numArr.length)
+		{
+			if(numArr[i]==num)
+			{
+				occ++;
+			}
+			i++;
+		}
+		return occ;
+	}
+	
 
 }

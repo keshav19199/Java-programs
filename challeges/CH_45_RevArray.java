@@ -12,7 +12,7 @@ public class CH_45_RevArray {
 		rev(arr);
 		
 		System.out.println("Reverce array is: ");
-		ArrayUtility.display(arr);
+		ArrayUtility.displayArray(arr);
 		
 		
 	}

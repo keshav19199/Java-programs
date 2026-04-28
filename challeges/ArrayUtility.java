@@ -21,16 +21,16 @@ public class ArrayUtility {
 	return num;
 	}
 	
-	public static void display(int[] arr)
+	
+	public static void displayArray(int[] numArray)
 	{
 		int i=0;
-		while(i<arr.length)
+		while(i<numArray.length)
 		{
-			System.out.println(arr[i]+" ");
+			System.out.println(numArray[i]+" ");
 			i++;
 		}
 		System.out.println();
-		
 	}
 
 }
