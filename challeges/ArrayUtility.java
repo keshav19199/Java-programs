@@ -33,4 +33,31 @@ public class ArrayUtility {
 		System.out.println();
 	}
 
+	
+	public static int[][] input2DArray() {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.print("Enter the numbers of rows: ");
+		int rows=sc.nextInt();
+		System.out.print("Enter the numbers of columns: ");
+		int columns=sc.nextInt();
+		int[][] numArr=new int[rows][columns];
+		
+		int i=0;
+		while(i<rows)
+		{
+			int j=0;
+			while(j<columns)
+			{
+				System.out.print("Enter elementn row: "+(i+1)+", column: "+(j+1)+" :");
+				numArr[i][j]=sc.nextInt();
+				j++;
+			}
+			i++;
+		}
+		return numArr;
+		}
+		
+		
 }
