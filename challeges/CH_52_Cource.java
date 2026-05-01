@@ -1,6 +1,6 @@
 package java_prog.challeges;
 
-public class CG_52_Cource {
+public class CH_52_Cource {
 	public static void main(String[] args) {
 		
 		int num;
