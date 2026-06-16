@@ -7,6 +7,7 @@ public class ParentException {
 		try {
 			int a=3;
 			int b=0;
+			
 			int div=a/b;
 			
 			System.out.println(div);
