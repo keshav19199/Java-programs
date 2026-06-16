@@ -1,6 +1,5 @@
 package java_prog.exceptions;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
