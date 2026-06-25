@@ -12,9 +12,7 @@ public class ReverceNo {
 			int digit=num%10;
 			rev=rev*10+digit;
 			num=num/10;
-			
 		}
 		System.out.println(rev);
 	}
-
 }

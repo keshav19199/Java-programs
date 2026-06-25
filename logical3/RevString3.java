@@ -13,5 +13,4 @@ public class RevString3 {
 		}
 		System.out.println(rev);
 	}
-
 }
