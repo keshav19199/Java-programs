@@ -1,4 +1,4 @@
-package java_prog.challeges.Array_CH_82;
+package java_prog.challeges.CH_82_Array;
 
 public class TestArrayOPerations {
 

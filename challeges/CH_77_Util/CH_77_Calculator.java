@@ -1,4 +1,4 @@
-package java_prog.challeges.Util_CH_77;
+package java_prog.challeges.CH_77_Util;
 
 
 import java_prog.challeges.Geometry.Circle;

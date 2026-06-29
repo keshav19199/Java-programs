@@ -1,4 +1,4 @@
-package java_prog.challeges.Employee_CH_79;
+package java_prog.challeges.CH_79_Employee;
 
 public class TestEmployee {
 

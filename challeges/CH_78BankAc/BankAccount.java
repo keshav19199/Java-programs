@@ -1,4 +1,4 @@
-package java_prog.challeges.BankAc_CH_78;
+package java_prog.challeges.CH_78BankAc;
 
 public class BankAccount {
 	

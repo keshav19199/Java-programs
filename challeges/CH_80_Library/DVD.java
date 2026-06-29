@@ -1,4 +1,4 @@
-package java_prog.challeges.Library_CH_80;
+package java_prog.challeges.CH_80_Library;
 
 public class DVD extends LibraryItem {
 	
