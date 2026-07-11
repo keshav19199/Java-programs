@@ -16,7 +16,6 @@ public class Predicate1 {
 		System.out.println(result.test(100));
 		
 		Predicate<Integer> p3=Predicate.isEqual(10);
-		
 		System.out.println(p3.test(11));
 		
 		
