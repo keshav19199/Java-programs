@@ -19,9 +19,6 @@ public class RaceCondition_2 {
 		Thread.sleep(400);
 		System.out.println(m1.getCount());
 		
-		
-		
-		
 	}
 
 }
@@ -43,8 +40,6 @@ class Mobile_1
 	{
 		return this.count;
 	}
-
-
 }
 
 class Hello extends Thread
@@ -63,8 +58,6 @@ class Hello extends Thread
 			count.Increase();
 		}
 	}
-
-
 }
 class Hii extends Thread
 {

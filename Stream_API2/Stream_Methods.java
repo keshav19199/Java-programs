@@ -10,6 +10,10 @@ public class Stream_Methods {
 	
 		list.stream()
 		.filter(name->name.startsWith("r"))
-		.forEach(System.out::println);
+		.forEach(System.out::println); // for ecah madhe method refrence use karaycha
+		
+		System.out.println("**************************88");
+		list.stream()
+		.filter(i->i.length()>5).forEach(System.out::println);
 	}
 }
