@@ -12,6 +12,8 @@ public class Challenge_115 {
 		.map(i->Integer.parseInt(i))
 		.map(i->Math.pow(i, 2))
 		.forEach(System.out::println);
+		
+		
 //		.reduce((a,b)->a+b)
 //		.ifPresent(System.out::println);
 	}
