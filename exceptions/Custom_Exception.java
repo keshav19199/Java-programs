@@ -5,7 +5,7 @@ public class Custom_Exception {
 	public static void main(String[] args) {
 
 		int i=34;
-		
+			
 		try {
 			if(i>10 && i<20)
 			{
