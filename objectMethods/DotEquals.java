@@ -43,7 +43,6 @@ class Bike
 		this.price=price;
 		
 	}
-	
 	public boolean equals(Object obj)
 	{
 		Bike b=(Bike)obj;
