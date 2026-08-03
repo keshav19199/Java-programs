@@ -1,4 +1,4 @@
-package java_prog.collection_Revision;
+package java_prog.collection_List_Revision;
 
 import java.util.Stack;
 
