@@ -13,7 +13,7 @@ public class Map_1 {
 		
 		System.out.println(s.hashCode()+" "+s2.hashCode());
 		System.out.println(s.equals(s2));
-		System.out.println(s==s2);
+		System.out.println(s == s2);
 		
 		System.out.println("*************************");
 		
