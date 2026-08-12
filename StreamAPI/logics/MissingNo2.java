@@ -9,9 +9,10 @@ public class MissingNo2 {
 
 		List<Integer> list=List.of(3,6,4,2,8);
 		
-		IntStream.range(1, 10).forEach((i)-> {if(!list.contains(i))
+		IntStream.range(1, 10)
+		.forEach((i)-> {if(!list.contains(i))
 			{
-			System.out.println(i);
+				System.out.println(i);
 			}});
 	}
 
