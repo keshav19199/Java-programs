@@ -6,7 +6,7 @@ public class Supplier_2 {
 
 	public static void main(String[] args) {
 
-		Supplier<String> sup=()->(new String("abc"));
+		Supplier<String> sup=()->("abc");
 		
 		System.out.println(sup.get());
 	}
