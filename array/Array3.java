@@ -5,18 +5,18 @@ package java_prog.array;
 public class Array3 {
 	public static void main(String[] args) {
 		
-		int counter=0;
+		int count=0;
 		int[] people=new int[1500];
 		
 		for(int i=0; i<1500; i++)
 		{
 			if(i%80==0)
 			{
-				counter++;
+				count++;
 			}
 			people[i]=i;
 		}
-		System.out.println("Counter: "+counter);
+		System.out.println("Counter: "+count);
 	}
 
 }

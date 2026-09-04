@@ -14,7 +14,6 @@ public class ListAdd {
 		
 		f.start();
 		s.start();
-		
 		f.join();
 		s.join();
 		
