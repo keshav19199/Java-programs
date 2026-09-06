@@ -18,7 +18,6 @@ public class AnonymousAbs {
 	s1.doStudy("4321");
 	
 	s1.doRest();
-	
 	}
 
 }
